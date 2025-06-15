@@ -1,0 +1,48 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+pip-log.txt
+pip-selfcheck.json
+
+# Data directories
+data/
+data/raw/
+data/processed/
+
+# Models directory
+models/
+
+# Jupyter Notebook checkpoints and temporary files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Dependency lock files (if not sharing)
+poetry.lock
+requirements.txt
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
